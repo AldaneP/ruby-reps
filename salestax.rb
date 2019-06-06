@@ -1,7 +1,18 @@
-def add
+# def add
+#
+# if
+#   puts""
+#
+# else
+#   puts "Please enter a number"
 
-if
-  puts""
+  def salestax(var)
+    if var.gets.chomp.to_i
+      puts "#{var}"
+      puts "#{var.class}"
+   elsif salestax.str
+     puts "Enter a number"
+     return  nil
+  end
 
-else
-  puts "Please enter a number"
+# gets.chomp.to_i
